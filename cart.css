@@ -1,0 +1,102 @@
+nav{
+    background-image: linear-gradient(gold,rgb(255, 162, 0));
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 4px 3px 20px black ;
+
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px lime;
+    font-family: Georgia;
+}
+#b1{
+    background-color:lime;
+    border-radius: 5px;
+    border: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbarSupportedContent a{
+    position: relative;
+    left: 360px;
+    color: white;
+    font-size: 20px;
+}
+
+#products{
+    background-color: lightgrey;
+    margin-top:-30px;
+}
+#products img{
+    height: 300px;
+    width: 250px;
+}
+.card{
+    height: 450px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    box-shadow:15px 20px 20px rgba(0,0,0,0.5);
+    align-items: center;
+    padding: 10px;
+}
+.btn{
+    background-color: gold;
+    height: 30px;
+    width: 150px;
+    border: none;
+}
+.cart{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 3px;
+    width: 80px;
+    font-size: 18px;
+}
+
+#mycart{
+    background-color: gainsboro ;
+    height: 400px;
+  width: 400px;
+  float: left;
+}
+#yourcart{
+    font-size: 40px;
+    color: black;
+    text-shadow: 3px 6px 4px greenyellow;
+}
+
+#total{
+    border: 2px solid gold;
+    background-color: wheat;
+}
+button{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    right: -5px;
+}
+li{
+    list-style: square;
+    font-size: 20px;
+    font-weight: 800px;
+}
+.thank{
+    /* float: left; */
+    margin-left: 400px;
+    margin-top: -400px;
+    /* width: 900px; */
+}
